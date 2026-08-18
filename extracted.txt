@@ -1,0 +1,77 @@
+[P:Normal] Medical Claims Utilization Report
+[P:Normal] June vs July 2026  |  Prepared for HR Management
+[P:Normal] Scope: Outpatient (OPC) medical claims, all employees. Entitlement: 14 clinic visits per employee, effective May 2026.
+[P:Heading1] 1. Executive Summary
+[P:ListParagraph] Total clinic visits fell from 42 in June to 29 in July, a 31% decrease. MC (medical certificate) days issued fell from 34 to 21, a 38% decrease — both consistent with the seasonal respiratory-illness spike easing after June.
+[P:ListParagraph] Diseases of the respiratory system remain the top cause of visits but dropped sharply — from 22 visits in June (52% of all June visits) to 6 in July (21%).
+[P:ListParagraph] No employee is close to exhausting the 14-visit annual entitlement. The two highest cumulative utilizers (May–July) are each at 6 visits (43% of entitlement).
+[P:ListParagraph] 8 employees visited a clinic in both June and July. One of them (FSBH000087) has two chronic (LTM) diagnoses on file — rheumatoid arthritis/polyneuropathy and diabetes/hyperlipidemia — and should be reviewed for a chronic-care / LTM management pathway rather than tracked as routine acute utilization.
+[P:ListParagraph] 2 identical rejected reimbursement claims were submitted by the same employee (FSBH000094) on the same date in July, worth a duplicate-submission check with the TPA/insurer.
+[P:Heading1] 2. Claims Volume Trend (June – July)
+[P:Normal] Visit and MC volumes across all four months in the dataset, shown for context. August is partial (through 16 Aug).
+[TABLE START]
+ROW: Month | Total Visits | Unique Employees | Visits with MC | MC Days Issued | Rejected Claims
+ROW: June 2026 | 42 | 29 | 27 | 34 | 2
+ROW: July 2026 | 29 | 23 | 20 | 21 | 3
+[TABLE END]
+[P:Heading1] 3. June vs July — Detailed Comparison
+[TABLE START]
+ROW: Metric | June | July | Change
+ROW: Total visits | 42 | 29 | ↓ 31%
+ROW: Unique employees seen | 29 | 23 | ↓ 21%
+ROW: Visits resulting in MC | 27 | 20 | ↓ 26%
+ROW: Visits with no MC | 15 | 9 | ↓ 40%
+ROW: % of visits with MC | 64% | 69% | ↑ 5 pts
+ROW: Total MC days issued | 34 | 21 | ↓ 38%
+ROW: Cashless (panel clinic) claims | 39 | 26 | ↓ 33%
+ROW: Reimbursement (OPCReim) claims | 3 | 3 | –
+ROW: Rejected claims | 2 | 3 | ↑ 1
+ROW: Chronic / LTM-flagged visits | 0 | 1 | ↑ 1
+[TABLE END]
+[P:Normal] Note: the share of visits resulting in MC actually rose slightly (64% → 69%) even as total volume fell — July's visits, though fewer, were on average slightly more likely to warrant time off.
+[P:Heading1] 4. What's Driving Visits — Diagnosis Group, June vs July
+[P:Heading2] 4.1 All visits, by primary diagnosis group
+[TABLE START]
+ROW: Diagnosis Group | June Visits | July Visits | Change
+ROW: Diseases of the respiratory system | 22 | 6 | ↓ 16
+ROW: Symptoms / signs, not elsewhere classified | 7 | 0 | ↓ 7
+ROW: Musculoskeletal & connective tissue | 5 | 3 | ↓ 2
+ROW: Certain infectious & parasitic diseases | 4 | 6 | ↑ 2
+ROW: Diseases of the genitourinary system | 2 | 4 | ↑ 2
+ROW: Diseases of the digestive system | 1 | 3 | ↑ 2
+ROW: Diseases of the eye and adnexa | 1 | 1 | –
+ROW: Diseases of the skin and subcutaneous tissue | 0 | 2 | ↑ 2
+ROW: Injury, poisoning & external causes | 0 | 2 | ↑ 2
+ROW: Diseases of the nervous system | 0 | 1 | ↑ 1
+ROW: Endocrine, nutritional & metabolic diseases | 0 | 1 | ↑ 1
+[TABLE END]
+[P:Heading2] 4.2 Diagnosis groups specifically behind MC-issued visits
+[TABLE START]
+ROW: Diagnosis Group | June (MC visits) | July (MC visits)
+ROW: Diseases of the respiratory system | 14 | 5
+ROW: Certain infectious & parasitic diseases | 4 | 5
+ROW: Musculoskeletal & connective tissue | 4 | 3
+ROW: Symptoms / signs, not elsewhere classified | 3 | 0
+ROW: Diseases of the genitourinary system | 1 | 2
+ROW: Diseases of the digestive system | 1 | 2
+ROW: Injury, poisoning & external causes | 0 | 2
+ROW: Endocrine, nutritional & metabolic diseases | 0 | 1
+[TABLE END]
+[P:Normal] Respiratory illness drove both the June spike in visits and the June spike in MC days. Its steep drop-off is the single biggest reason July's totals came down.
+[P:Heading1] 5. Visit Entitlement Utilization (Cumulative, Since May)
+[P:Normal] Each employee is entitled to 14 clinic visits, tracked from May 2026. The table below shows the top 10 employees by cumulative visits through July.
+[TABLE START]
+ROW: Employee ID | Visits (May–Jul) | % of 14-Visit Entitlement | Flag
+ROW: FSBH000087 | 6 | 43% | Chronic (LTM) – review
+ROW: FSBH000070 | 6 | 43% | Repeat visitor
+ROW: FSBH000045 | 5 | 36% | Watch
+ROW: FSBH000028 | 4 | 29% | Watch
+ROW: FSBH000019 | 4 | 29% | Watch
+ROW: FSBH000076 | 4 | 29% | Repeat visitor
+ROW: FSBH000035 | 3 | 21% | –
+ROW: FSBH000025 | 3 | 21% | Repeat visitor
+ROW: FSBH000005 | 3 | 21% | –
+ROW: FSBH000084 | 3 | 21% | Repeat visitor
+[TABLE END]
+[P:ListParagraph] No employee has crossed 50% of the annual entitlement as of July — overall utilization risk is low.
+[P:ListParagraph] 8 employees claimed in both June and July (out of 29 and 23 unique claimants respectively). Of these, FSBH000087 stands out: two of their May visits were coded LTM (rheumatoid arthritis/polyneuropathy and diabetes/hyperlipidemia), meaning part of their utilization is chronic-condition management, not recurring acute illness.
